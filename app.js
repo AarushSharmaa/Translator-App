@@ -34,6 +34,10 @@ function clickHandler() {
     //outputDiv.innerText = "abakjfkjsdhfkjh: " + txtInput.value;
 
     var inputText = txtInput.value; //taking input
+    if (String(inputText).length === 0) {
+        outputDiv.innerText = "Groot says : Please do not leave the above field empty 😡";
+        return;
+    }
 
     //calling server for processing
     fetch(getTranslationURL(inputText))

@@ -1,7 +1,5 @@
 # Pirate Translator App
 
-## About Groot : 
-
 ## Functionality
 - Type here whatever you want and this web app will convert it to Pirate's language
 - This web app communicates with a server using API calls
